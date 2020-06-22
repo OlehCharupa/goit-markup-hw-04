@@ -48,6 +48,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+#svg-sprint{
+  display: none;
+}
 /* стили для секций: заголовки-шрифт и цвет */
 .section {
   padding-top: 94px;
@@ -150,20 +153,29 @@ img {
 
   text-decoration: none;
 }
-/* .contact-nav .link::before{
-  content: "" ;
-  display: inline-flex;
-  width: 20px;
-  height: 20px;
-  outline: 1px solid red;
-  margin-right: 10px;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain;
-} */
+
 .contact-nav .link:hover,
-.contact-nav .link:focus {
+.contact-nav .link:focus{
   color: var(--accent-color);
+}
+.icon-envelope{
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  fill: #757575;
+}
+.icon-envelope:hover,
+.icon-envelope:focus{
+  fill: var(--accent-color)
+}
+.icon-smartphone{
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}
+.icon-smartphone:hover,
+.icon-smartphone:focus{
+  fill: var(--accent-color)
 }
 
 /* Герой */
