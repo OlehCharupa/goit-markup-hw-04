@@ -411,7 +411,8 @@ background-color: var(--accent-color);
 /* Футер */
 
 .footer-page {
-  padding-top: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: var(--title-text-white);
   background-color: #2f303a;
 }
@@ -419,12 +420,10 @@ background-color: var(--accent-color);
   display: flex;
   padding: 0;
   align-items: baseline;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .address {
   margin-right: 69px;
-  margin-bottom: 28px;
 }
 .address-text {
   font-style: normal;
@@ -477,6 +476,28 @@ background-color: var(--accent-color);
 .socials-list .item + .item {
   margin-left: 10px;
 }
+.footer-item{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  text-align: center;
+}
+  
+
+.footer-icon{
+  fill: var(--title-text-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
 .footer-page .subscription {
   display: inline-block;
 }
@@ -486,18 +507,6 @@ background-color: var(--accent-color);
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.footer-page .copy {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: rgba(255, 255, 255, 0.4);
-
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  padding-top: 18px;
-  padding-bottom: 21px;
 }
 
 /* PORTFOLIO */
