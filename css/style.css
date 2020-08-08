@@ -152,27 +152,27 @@ img {
 }
 
 .contact-nav .link:hover,
-.contact-nav .link:focus{
+.contact-nav .link:focus {
   color: var(--accent-color);
 }
-.icon-envelope{
+.icon-envelope {
   width: 16px;
   height: 11px;
   margin-right: 10px;
   fill: #757575;
 }
 .icon-envelope:hover,
-.icon-envelope:focus{
-  fill: var(--accent-color)
+.icon-envelope:focus {
+  fill: var(--accent-color);
 }
-.icon-smartphone{
+.icon-smartphone {
   width: 10px;
   height: 15px;
   margin-right: 10px;
 }
 .icon-smartphone:hover,
-.icon-smartphone:focus{
-  fill: var(--accent-color)
+.icon-smartphone:focus {
+  fill: var(--accent-color);
 }
 
 /* Герой */
@@ -248,26 +248,26 @@ img {
 .feature-list .item + .item {
   margin-left: 30px;
 }
-.icon-feature{
+.icon-feature {
   display: block;
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 
   position: relative;
   text-align: center;
 }
-.antenna{
-display: inline-block;
-width: 70px;
-height: 70px;
+.antenna {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
 
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* чем мы занимаемся */
@@ -349,32 +349,31 @@ transform: translate(-50%,-50%);
   margin: 0 auto;
   width: 44px;
   height: 44px;
-  border-radius: 50% ;
+  border-radius: 50%;
   position: relative;
   text-align: center;
 }
 
-.icon-socials{
-  fill: #AFB1B8;
+.icon-socials {
+  fill: #afb1b8;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: inline-block;
   width: 20px;
   height: 20px;
 }
 
 .socials-link .link:hover,
-.socials-link .link:focus{
-background-color: var(--accent-color);
+.socials-link .link:focus {
+  background-color: var(--accent-color);
 }
 
 .icon-socials:hover,
-.icon-socials:focus{
+.icon-socials:focus {
   fill: var(--title-text-white);
 }
-
 
 /* наши клиенты */
 .client-list {
@@ -389,23 +388,44 @@ background-color: var(--accent-color);
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-
 }
 .client-list .item + .item {
   margin-left: 30px;
 }
-.client-list .item > .link{
-   position: relative;
+.client-list .item > .link {
+  position: relative;
   text-align: center;
 }
-.icon-customer{
-  fill: #AFB1B8;
+.icon-customer {
+  fill: #afb1b8;
   position: absolute;
- 
-  transform: translate(-50%,-50%);
+
+  transform: translate(-50%, -50%);
   display: inline-block;
+}
+.company1 {
   width: 45px;
   height: 50px;
+}
+.company2 {
+  width: 40px;
+  height: 52px;
+}
+.company3 {
+  width: 41px;
+  height: 43px;
+}
+.company4 {
+  width: 80px;
+  height: 42px;
+}
+.company5 {
+  width: 59px;
+  height: 47px;
+}
+.company6 {
+  width: 88px;
+  height: 45px;
 }
 /* Футер */
 
@@ -475,7 +495,7 @@ background-color: var(--accent-color);
 .socials-list .item + .item {
   margin-left: 10px;
 }
-.footer-item{
+.footer-item {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: block;
@@ -485,14 +505,13 @@ background-color: var(--accent-color);
   position: relative;
   text-align: center;
 }
-  
 
-.footer-icon{
+.footer-icon {
   fill: var(--title-text-white);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: inline-block;
   width: 20px;
   height: 20px;
