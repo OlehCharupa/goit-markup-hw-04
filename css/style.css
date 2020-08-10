@@ -155,24 +155,20 @@ img {
 .contact-nav .link:focus {
   color: var(--accent-color);
 }
+
+.link-icon {
+  fill: currentColor;
+}
 .icon-envelope {
   width: 16px;
   height: 11px;
   margin-right: 10px;
-  fill: #757575;
 }
-.icon-envelope:hover,
-.icon-envelope:focus {
-  fill: var(--accent-color);
-}
+
 .icon-smartphone {
   width: 10px;
   height: 15px;
   margin-right: 10px;
-}
-.icon-smartphone:hover,
-.icon-smartphone:focus {
-  fill: var(--accent-color);
 }
 
 /* Герой */
@@ -369,9 +365,8 @@ img {
 .socials-link .link:focus {
   background-color: var(--accent-color);
 }
-
-.icon-socials:hover,
-.icon-socials:focus {
+.socials-link .link:hover .icon-socials,
+.socials-link .link:focus .icon-socials {
   fill: var(--title-text-white);
 }
 
@@ -379,7 +374,17 @@ img {
 .client-list {
   display: flex;
 }
-.client-list .item {
+/* .client-list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+} */
+.item .link-customer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,16 +397,17 @@ img {
 .client-list .item + .item {
   margin-left: 30px;
 }
-.client-list .item > .link {
-  position: relative;
-  text-align: center;
-}
+
 .icon-customer {
   fill: #afb1b8;
-  position: absolute;
-
-  transform: translate(-50%, -50%);
-  display: inline-block;
+}
+.item .link-customer:hover,
+.item .link-customer:focus {
+  border-color: var(--accent-color);
+}
+.link-customer:hover .icon-customer,
+.link-customer:focus .icon-customer {
+  fill: var(--accent-color);
 }
 .company1 {
   width: 45px;
