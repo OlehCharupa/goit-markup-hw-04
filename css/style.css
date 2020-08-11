@@ -409,27 +409,27 @@ img {
 .link-customer:focus .icon-customer {
   fill: var(--accent-color);
 }
-.company1 {
+.icon-yaco {
   width: 45px;
   height: 50px;
 }
-.company2 {
+.icon-company-taglinehere {
   width: 40px;
   height: 52px;
 }
-.company3 {
+.icon-company {
   width: 41px;
   height: 43px;
 }
-.company4 {
+.icon-fosterpeters {
   width: 80px;
   height: 42px;
 }
-.company5 {
+.icon-brand {
   width: 59px;
   height: 47px;
 }
-.company6 {
+.icon-company-tagline {
   width: 88px;
   height: 45px;
 }
