@@ -1,27 +1,9 @@
-/*  цвет ссылок и фона кнопок  #2196F3 
- вторичный цвет текста  #757575
-основной цвет текста  #212121
-цвет текста в герое #FFFFFF
-цвет фона в чем мы занимаемся rgba(47, 48, 58, 0.8)
-фот в футере #2F303A
-основной фон #E5E5E5
-*/
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --title-text-white: #ffffff;
   --accent-color: #2196f3;
 }
-
-/* html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
 
 body {
   background-color: #ffffff;
@@ -47,6 +29,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+a {
+  text-decoration: none;
 }
 /* стили для секций: заголовки-шрифт и цвет */
 .section {
@@ -374,16 +359,7 @@ img {
 .client-list {
   display: flex;
 }
-/* .client-list .item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-} */
+
 .item .link-customer {
   display: flex;
   justify-content: center;
