@@ -428,12 +428,12 @@ a {
 }
 .footer-page .container {
   display: flex;
-  padding: 0;
+  justify-content: space-between;
   align-items: baseline;
 }
 
 .address {
-  margin-right: 69px;
+  width: 270px;
 }
 .address-text {
   font-style: normal;
@@ -477,38 +477,33 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer .socials-link {
-  margin-right: 94px;
+.container > .socials-link {
+  width: 270px;
 }
 .socials-list {
   display: flex;
 }
-.socials-list .item + .item {
+.socials-link > .socials-list .item + .item {
   margin-left: 10px;
 }
 .footer-item {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
-  margin: 0 auto;
   width: 44px;
   height: 44px;
-  position: relative;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-icon {
   fill: var(--title-text-white);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: inline-block;
   width: 20px;
   height: 20px;
 }
 .footer-page .subscription {
-  display: inline-block;
+  display: flex;
+  width: 570px;
 }
 .subscription .text {
   font-weight: 700;
